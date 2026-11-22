@@ -34,4 +34,4 @@ After the setup, note what worked, what was difficult, and what you would change
 
 ## Evidence
 
-Add relevant, sanitised diagrams or screenshots to [`evidence/`](evidence/README.md). Caption each item and do not include credentials, personal information or unrelated systems.
+Add relevant, sanitised diagrams or screenshots to the [evidence page](evidence/). Caption each item and do not include credentials, personal information or unrelated systems.

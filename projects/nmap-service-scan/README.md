@@ -37,4 +37,4 @@ What did the exercise help you understand? What was uncertain, and what would yo
 
 ## Evidence
 
-Add relevant, sanitised output or screenshots to [`evidence/`](evidence/README.md). Explain what each item shows and exclude secrets, personal information and anything outside the authorised lab.
+Add relevant, sanitised output or screenshots to the [evidence page](evidence/). Explain what each item shows and exclude secrets, personal information and anything outside the authorised lab.
