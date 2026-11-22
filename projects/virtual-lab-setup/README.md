@@ -1,47 +1,37 @@
-
 # Virtual Cybersecurity Lab Setup
 
-> **Status:** Documentation template. Environment details and results have not been supplied.
+**Status:** Planned. No environment configuration or results have been supplied.
 
 ## Objective
 
-Plan and document an isolated virtual environment for authorized cybersecurity learning. The lab should make its boundaries clear and reduce the risk of affecting any device, account, or network outside the exercise.
+Plan an isolated virtual environment for authorised coursework. The aim is to keep practice within the lab and avoid affecting systems outside the agreed scope.
 
-## Tools and Environment
+## Tools and environment
 
-Complete these fields with the actual configuration used; the examples below are prompts, not claims about a completed setup.
+Record the setup actually used:
 
-- Hypervisor and version: `[record when selected]`
-- Guest systems and versions: `[record actual systems]`
-- Virtual network mode: `[record actual mode]`
-- Host operating system: `[record if relevant]`
-- Snapshots or recovery approach: `[record actual approach]`
-- Scope and isolation check: `[explain how the lab is separated from unauthorized targets]`
+- Hypervisor and version: `[to be completed]`
+- Host and guest operating systems: `[to be completed]`
+- Virtual network mode: `[to be completed]`
+- How isolation will be checked: `[to be completed]`
 
-## Methodology
+## Method
 
-1. Define the learning objective and select systems that are owned by the student or explicitly authorized for the exercise.
-2. Design a virtual network that keeps practice targets within the intended lab scope.
-3. Configure the virtual machines and document relevant settings without recording passwords, keys, or other secrets.
-4. Verify the intended network boundaries before performing any security exercise.
-5. Capture sanitized configuration evidence, then document any limitations or changes needed.
+1. Define the learning objective and identify the systems that are in scope.
+2. Configure the virtual machines and network for the planned exercise.
+3. Check that the network is isolated as intended before doing any security work.
+4. Record the settings and any issues, without saving passwords or keys.
 
-**Setup completed:** `[date or not yet completed]`
-
-**Configuration notes:** `[describe the actual steps and settings used]`
+**Setup date:** `[not yet completed]`
 
 ## Results
 
-- **Verified configuration:** `[record only what was checked]`
-- **Isolation check:** `[record the check and its observed outcome]`
-- **Limitations or issues:** `[record honestly; none supplied yet]`
+No setup or isolation result has been reported yet. After completing the checks, record what was verified and any limitations here.
 
-No lab configuration or successful isolation result is claimed by this template.
+## Reflection
 
-## Reflection and Improvements
-
-`[After completing the setup, reflect on what worked, what was difficult, how isolation was verified, and what you would change before the next exercise.]`
+After the setup, note what worked, what was difficult, and what you would change before the next exercise.
 
 ## Evidence
 
-Place sanitized screenshots, diagrams, or configuration notes in [`evidence/`](evidence/README.md). Label each item with what it shows. Do not include passwords, API keys, personal information, or screenshots of unrelated systems.
+Add relevant, sanitised diagrams or screenshots to [`evidence/`](evidence/README.md). Caption each item and do not include credentials, personal information or unrelated systems.

@@ -8,7 +8,7 @@ A Jekyll portfolio for WQE7001 Cyber Security at Universiti Malaya, published wi
 - Two project write-ups with consistent methodology, results, reflection, and evidence sections
 - Learning journey, career objective, and contact information
 
-The portfolio uses placeholders where personal details, proficiency ratings, certifications, project results, or evidence have not been provided. Replace them only with accurate, verifiable information. Never publish credentials, private contact details, or evidence from systems outside an authorized lab.
+The portfolio uses placeholders where personal details, proficiency ratings, certifications, project results, or evidence have not been provided. Replace them only with accurate, verifiable information. Never publish credentials, private contact details, or evidence from systems outside an authorised lab.
 
 ## GitHub Pages
 
@@ -16,4 +16,4 @@ The site is built with Jekyll and the GitHub Pages-supported Minima theme. The c
 
 ## Project evidence
 
-Each project is in its own folder under `projects/`. Add sanitized evidence to that project's `evidence/` directory and describe what it demonstrates in the corresponding README. The Nmap exercise must remain within an explicitly authorized, controlled lab.
+Each project is in its own folder under `projects/`. Add sanitised evidence to that project's `evidence/` directory and describe what it demonstrates in the corresponding README. The Nmap exercise must remain within an explicitly authorised, controlled lab.

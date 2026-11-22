@@ -1,50 +1,40 @@
 # Network Scanning and Service Enumeration Using Nmap
 
-> **Status:** Documentation template. No scan has been reported here. Add only results from a completed, authorized exercise.
+**Status:** Planned. No scan results or evidence have been supplied.
 
 ## Objective
 
-Document how to identify reachable hosts, open ports, and advertised services on a specifically authorized target inside a controlled virtual lab. The purpose is to understand what the observations mean and their limitations—not to scan public or third-party systems.
+Use Nmap in a controlled lab to study how open ports and advertised services are identified. The exercise must be limited to a target that is explicitly authorised and within the lab scope.
 
-## Tools and Environment
+## Tools and environment
 
-- Nmap: `[version used]`
-- Scanner: `[operating system / VM]`
-- Target: `[lab VM name or identifier; do not include a public IP]`
-- Network mode and scope: `[isolated network type and authorized target range]`
-- Authorization: `[describe the lab ownership or permission]`
+- Nmap version: `[to be completed]`
+- Scanner system: `[to be completed]`
+- Lab target: `[to be completed; do not list a public or third-party target]`
+- Authorisation and scope: `[to be confirmed before the exercise]`
 
-Do not begin until the target and scope are explicitly authorized. Keep the exercise isolated from networks and systems outside the stated scope.
+Do not scan a system unless you have permission to test it. Keep the exercise within the stated lab scope.
 
-## Methodology
+## Method
 
-1. Define the learning objective and record the authorized target and scope.
-2. Confirm the scanner and target are connected only through the intended lab network.
-3. Perform the planned Nmap exercise against the authorized target, following course or lab guidance.
-4. Preserve relevant output without including credentials, personal information, or unrelated system details.
-5. Compare observed ports and service information with the target's expected configuration, then record uncertainty and limitations.
+1. Write down the objective, authorised target and scope.
+2. Confirm that the scanner and target are connected to the intended lab network.
+3. Follow the course or lab instructions to run the planned scan.
+4. Save only relevant output, removing credentials and personal information.
+5. Compare the output with the target's expected configuration and note uncertainty.
 
-**Exercise performed:** `[date or not yet performed]`
+**Exercise date:** `[not yet completed]`
 
-**Exact procedure and options:** `[add the commands or steps used in the authorized lab]`
+**Procedure and options used:** `[record after the authorised exercise]`
 
 ## Results
 
-- **Observations:** `[record verified output; none supplied yet]`
-- **Interpretation:** `[explain what the observations support and what they do not prove]`
-- **Limitations:** `[for example, scan scope, filtering, service-identification uncertainty]`
-- **Conclusion:** `[complete after reviewing the evidence]`
-
-No findings or scan results are claimed by this template.
+No scan has been reported yet. After completing the exercise, record the observations, what they support, and any limitations. Do not treat service identification as proof of a vulnerability.
 
 ## Reflection
 
-- What did the exercise demonstrate about ports and service identification?
-- What was uncertain or outside the scope of the test?
-- How would the lab setup or documentation be improved next time?
-
-`[Add a reflection after completing the exercise. Do not claim outcomes that are not supported by the saved evidence.]`
+What did the exercise help you understand? What was uncertain, and what would you do differently next time?
 
 ## Evidence
 
-Place sanitized, relevant evidence in [`evidence/`](evidence/README.md). Include a short caption and explain how each item supports a result. Never include secrets, personal data, or screenshots from systems outside the authorized lab.
+Add relevant, sanitised output or screenshots to [`evidence/`](evidence/README.md). Explain what each item shows and exclude secrets, personal information and anything outside the authorised lab.
