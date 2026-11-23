@@ -1,5 +1,7 @@
 
 title: "Zawin Awatif | Cybersecurity Portfolio"
 description: "Cybersecurity projects, technical skills, and professional development"
+url: "https://winzapri.github.io"
+baseurl: "/cybersecurity-portfolio"
 theme: minima
 markdown: kramdown
