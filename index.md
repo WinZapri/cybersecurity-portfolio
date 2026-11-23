@@ -31,18 +31,48 @@ description: Coursework and learning notes by Zawin Awatif, a postgraduate cyber
 <section class="section skills-section" id="skills" aria-labelledby="skills-title">
   <div class="section-heading">
     <p class="eyebrow">02 / Technical skills</p>
-    <h2 id="skills-title">Areas I’m studying</h2>
-    <p class="section-intro">I have not assessed these areas against completed work yet, so I have not assigned myself proficiency levels.</p>
+    <h2 id="skills-title">Technical Skills &amp; Expertise</h2>
   </div>
-  <div>
-    <div class="skills-grid">
-      <article class="skill-card"><h3>Networking</h3><p>Fundamentals, common protocols and defensive concepts.</p><span class="level">Level: <strong>Not yet assessed</strong></span></article>
-      <article class="skill-card"><h3>Security tools</h3><p>Using tools within a defined, authorised learning environment.</p><span class="level">Level: <strong>Not yet assessed</strong></span></article>
-      <article class="skill-card"><h3>Operating systems</h3><p>Linux and system configuration as coursework develops.</p><span class="level">Level: <strong>Not yet assessed</strong></span></article>
-      <article class="skill-card"><h3>Risk and evidence</h3><p>Recording observations, limitations and possible mitigations.</p><span class="level">Level: <strong>Not yet assessed</strong></span></article>
-    </div>
-    <p class="level-key"><strong>Proficiency scale:</strong> Beginner · Developing · Proficient · Advanced</p>
+  <p class="skills-intro">My technical skills have developed through hands-on experience in security operations, threat intelligence, cybersecurity consulting and infrastructure management. Throughout my professional roles, I have worked with security monitoring tools, investigated alerts, supported risk assessments and configured virtualised environments. I am continuing to strengthen my offensive security, cryptography and programming skills through my postgraduate studies and practical projects.</p>
+  <div class="skills-grid">
+    <article class="skill-card">
+      <h3>Security Operations &amp; SIEM</h3>
+      <p>Experience in security monitoring, alert triage and log analysis using Elastic SIEM, Kibana and Wazuh. During my SOC internship at MyCERT, I investigated security alerts, reviewed system logs and worked with incident response playbooks.</p>
+      <p class="skill-tools"><strong>Tools:</strong> Elastic SIEM, Kibana, Wazuh, Osquery, Windows Event Logs.</p>
+      <div class="skill-level"><span class="level">Level: <strong>Proficient</strong></span><div class="level-meter level-meter--proficient" aria-hidden="true"><span></span><span></span><span></span><span></span></div></div>
+    </article>
+    <article class="skill-card">
+      <h3>Cyber Threat Intelligence &amp; Threat Hunting</h3>
+      <p>Hands-on experience collecting and analysing threat intelligence, investigating indicators of compromise (IOCs) and working with threat intelligence platforms. I have configured OpenCTI integrations and explored threat intelligence sources to support security investigations.</p>
+      <p class="skill-tools"><strong>Tools:</strong> OpenCTI, MISP, VirusTotal, AlienVault OTX, MalwareBazaar, ThreatFox, MITRE ATT&amp;CK.</p>
+      <div class="skill-level"><span class="level">Level: <strong>Proficient</strong></span><div class="level-meter level-meter--proficient" aria-hidden="true"><span></span><span></span><span></span><span></span></div></div>
+    </article>
+    <article class="skill-card">
+      <h3>Network Security &amp; Infrastructure</h3>
+      <p>Practical experience configuring virtualised environments, managing network settings and supporting cybersecurity lab infrastructure. My work includes VMware, Proxmox, VLAN configurations and firewall environments.</p>
+      <p class="skill-tools"><strong>Tools:</strong> VMware, Proxmox VE, ESXi, OPNsense, Linux, Windows Server.</p>
+      <div class="skill-level"><span class="level">Level: <strong>Proficient</strong></span><div class="level-meter level-meter--proficient" aria-hidden="true"><span></span><span></span><span></span><span></span></div></div>
+    </article>
+    <article class="skill-card">
+      <h3>Governance, Risk &amp; Compliance (GRC)</h3>
+      <p>Experience supporting information security management activities, risk assessments and security documentation. During my cybersecurity consulting role, I contributed to ISMS-related documentation, risk registers, risk treatment plans and business continuity activities.</p>
+      <p class="skill-tools"><strong>Knowledge Areas:</strong> ISO/IEC 27001, ISMS, Risk Assessment, Risk Treatment, Business Continuity Management.</p>
+      <div class="skill-level"><span class="level">Level: <strong>Proficient</strong></span><div class="level-meter level-meter--proficient" aria-hidden="true"><span></span><span></span><span></span><span></span></div></div>
+    </article>
+    <article class="skill-card">
+      <h3>Penetration Testing &amp; Vulnerability Assessment</h3>
+      <p>Practical exposure to network scanning, service enumeration and security testing in controlled laboratory environments. I have used Kali Linux and Nmap to identify active hosts, open ports and running services, and I am continuing to develop my penetration testing methodology.</p>
+      <p class="skill-tools"><strong>Tools:</strong> Kali Linux, Nmap, Metasploitable2, Wireshark.</p>
+      <div class="skill-level"><span class="level">Level: <strong>Developing</strong></span><div class="level-meter level-meter--developing" aria-hidden="true"><span></span><span></span><span></span><span></span></div></div>
+    </article>
+    <article class="skill-card">
+      <h3>Cryptography &amp; Security Programming</h3>
+      <p>Currently strengthening my understanding of cryptographic algorithms, encryption techniques and secure communication protocols through postgraduate coursework. I have practical programming experience and am developing my ability to apply cryptographic concepts through Python-based exercises.</p>
+      <p class="skill-tools"><strong>Skills:</strong> Python, AES Encryption, Symmetric Cryptography, TLS/HTTPS, Network Security Programming.</p>
+      <div class="skill-level"><span class="level">Level: <strong>Developing</strong></span><div class="level-meter level-meter--developing" aria-hidden="true"><span></span><span></span><span></span><span></span></div></div>
+    </article>
   </div>
+  <p class="level-key"><strong>Proficiency scale:</strong> Beginner · Developing · Proficient · Advanced</p>
 </section>
 
 <section class="section" id="certifications" aria-labelledby="certifications-title">

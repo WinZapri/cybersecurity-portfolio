@@ -44,12 +44,24 @@ main { overflow: hidden; }
 .meta-label { color: var(--purple); font-size: .65rem; }
 .about-meta strong { color: var(--text); font-size: .85rem; font-weight: 500; }
 .skills-section, .career-section { background: var(--navy-light); }
-.skills-grid { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: .75rem; }
-.skill-card { padding: 1rem; border: 1px solid var(--line); }
+.skills-section { display: block; }
+.skills-section > .section-heading { margin-bottom: 1rem; }
+.skills-intro { max-width: 900px; margin: 0 0 2rem; color: var(--muted); }
+.skills-grid { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 1rem; }
+.skill-card { display: flex; flex-direction: column; padding: 1.1rem; border: 1px solid var(--line); }
 .skill-card h3, .project-card h3 { margin: 0 0 .4rem; font-size: 1.05rem; font-weight: 600; }
-.skill-card p, .project-card > p:not(.project-status) { margin: 0; color: var(--muted); font-size: .88rem; }
+.skill-card p, .project-card > p:not(.project-status) { margin: 0 0 .85rem; color: var(--muted); font-size: .88rem; }
+.skill-card .skill-tools { margin-top: auto; }
+.skill-tools strong { color: var(--text); font-weight: 500; }
+.skill-level { margin-top: .75rem; padding-top: .75rem; border-top: 1px solid var(--line); }
 .level { display: block; margin-top: .8rem; color: var(--muted); font-size: .78rem; }
 .level strong { color: var(--text); font-weight: 500; }
+.skill-level .level { margin-top: 0; }
+.level-meter { display: grid; grid-template-columns: repeat(4, 1fr); gap: .25rem; margin-top: .5rem; }
+.level-meter span { height: 3px; background: var(--line); }
+.level-meter--developing span:nth-child(-n+2),
+.level-meter--proficient span:nth-child(-n+3),
+.level-meter--advanced span { background: var(--purple); }
 .level-key { margin: 1rem 0 0; color: var(--muted); font-size: .8rem; }
 .level-key strong { color: var(--text); font-weight: 500; }
 .projects-section { display: block; background: var(--navy); }
@@ -84,6 +96,7 @@ main { overflow: hidden; }
   .site-nav a { font-size: .8rem; }
   .hero { min-height: 340px; padding: 4rem 7vw; }
   .section { grid-template-columns: 1fr; gap: 1.5rem; padding: 4rem 7vw; }
+  .skills-grid { grid-template-columns: repeat(2, minmax(0, 1fr)); }
   .projects-section > .section-heading { grid-template-columns: 1fr; }
   .projects-section .section-heading .eyebrow, .projects-section .section-heading h2, .projects-section .section-intro { grid-column: 1; grid-row: auto; justify-self: start; }
   .projects-section .section-intro { margin-top: .8rem; }
