@@ -1,0 +1,31 @@
+<!doctype html>
+<html lang="{{ site.lang | default: 'en' }}">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="{{ page.description | default: site.description | escape }}">
+    <meta name="theme-color" content="#07131f">
+    <title>{{ page.title | default: site.title | escape }}</title>
+    <link rel="stylesheet" href="{{ '/assets/css/portfolio.css' | relative_url }}">
+  </head>
+  <body>
+    <a class="skip-link" href="#main-content">Skip to content</a>
+    <header class="site-header">
+      <a class="brand" href="{{ '/' | relative_url }}" aria-label="Zawin Awatif, home"><span class="brand-mark" aria-hidden="true">Z</span><span>ZAWIN AWATIF<span class="brand-subtitle">CYBERSECURITY PORTFOLIO</span></span></a>
+      <nav class="site-nav" aria-label="Main navigation">
+        <a href="{{ '/#about' | relative_url }}">About</a>
+        <a href="{{ '/#skills' | relative_url }}">Skills</a>
+        <a href="{{ '/#certifications' | relative_url }}">Training</a>
+        <a href="{{ '/#projects' | relative_url }}">Projects</a>
+        <a href="{{ '/#journey' | relative_url }}">Journey</a>
+        <a class="nav-contact" href="{{ '/#contact' | relative_url }}">Contact <span aria-hidden="true">↗</span></a>
+      </nav>
+    </header>
+    <main id="main-content">{{ content }}</main>
+    <footer class="site-footer">
+      <a class="footer-brand" href="{{ '/' | relative_url }}">ZAWIN AWATIF <span>· CYBERSECURITY PORTFOLIO</span></a>
+      <p>WQE7001 Cyber Security · Universiti Malaya</p>
+      <a href="#main-content">Back to top ↑</a>
+    </footer>
+  </body>
+</html>

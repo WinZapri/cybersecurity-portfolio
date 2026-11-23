@@ -26,3 +26,8 @@ Thumbs.db
 
 # Local logs
 *.log
+
+# Jekyll build output
+_site/
+.jekyll-cache/
+.sass-cache/
