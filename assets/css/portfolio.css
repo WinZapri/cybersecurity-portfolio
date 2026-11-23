@@ -162,15 +162,21 @@ main { overflow: hidden; }
 .future-card:hover { border-color: var(--purple); transform: translateY(-3px); }
 .future-icon { width: 42px; height: 42px; margin-bottom: .6rem; fill: none; stroke: var(--purple); stroke-width: 1.5; stroke-linecap: round; stroke-linejoin: round; }
 .contact-section { padding: 5rem max(10vw, calc((100vw - 960px) / 2)); border-top: 1px solid var(--line); background: var(--navy-light); }
-.contact-section > p:not(.eyebrow):not(.small-note) { color: var(--muted); }
-.contact-links { display: flex; flex-wrap: wrap; gap: .8rem 1.7rem; margin-top: 1.3rem; }
-.contact-links a { color: var(--purple); font-size: .9rem; }
-.small-note { max-width: 520px; margin-top: 1rem; color: var(--muted); font-size: .78rem; }
+.contact-introduction { max-width: 680px; margin: 1rem 0 1.8rem; color: var(--muted); }
+.contact-grid { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 1rem; }
+.contact-card { display: grid; grid-template-columns: 42px minmax(0, 1fr) 18px; align-items: center; gap: .85rem; min-height: 112px; padding: 1.1rem; border: 1px solid var(--line); background: var(--navy); text-decoration: none; transition: border-color .18s ease, background .18s ease, transform .18s ease, box-shadow .18s ease; }
+.contact-card:hover { border-color: var(--purple); background: #17121d; transform: translateY(-3px); box-shadow: 0 10px 24px rgba(183, 160, 255, .06); }
+.contact-card:focus-visible { outline: 2px solid var(--pink); outline-offset: 4px; }
+.contact-icon { width: 42px; height: 42px; padding: 9px; border: 1px solid rgba(183, 160, 255, .38); color: var(--purple); fill: none; stroke: currentColor; stroke-width: 1.6; stroke-linecap: round; stroke-linejoin: round; }
+.contact-card-copy { display: flex; min-width: 0; flex-direction: column; gap: .25rem; }
+.contact-card-copy strong { color: var(--text); font-size: .88rem; }
+.contact-card-copy > span { overflow-wrap: anywhere; color: var(--muted); font-size: .78rem; }
+.external-arrow { width: 18px; height: 18px; fill: none; stroke: var(--pink); stroke-width: 1.8; stroke-linecap: round; stroke-linejoin: round; transition: transform .18s ease; }
+.contact-card:hover .external-arrow { transform: translate(2px, -2px); }
 .site-footer { display: flex; align-items: center; justify-content: space-between; gap: 1rem; padding: 1.3rem max(6vw, calc((100vw - 1120px) / 2)); border-top: 1px solid var(--line); color: var(--muted); font-size: .75rem; }
 .site-footer p { margin: 0; }
-.footer-brand { color: var(--text); font-size: .72rem; font-weight: 600; text-decoration: none; }
-.footer-brand span { color: var(--muted); font-weight: 400; }
-.site-footer > a:last-child { color: var(--purple); text-decoration: none; }
+.site-footer > a { color: var(--purple); text-decoration: none; }
+.site-footer > a:hover { text-decoration: underline; text-underline-offset: .2em; }
 
 @media (max-width: 800px) {
   .site-header { align-items: flex-start; flex-direction: column; gap: .65rem; padding: .8rem 5vw; }
@@ -189,6 +195,7 @@ main { overflow: hidden; }
   .career-stage h3 { min-height: 0; }
   .experience-grid { grid-template-columns: repeat(3, minmax(0, 1fr)); }
   .focus-card, .future-card { min-height: 220px; }
+  .contact-grid { grid-template-columns: 1fr; }
   .site-footer { flex-wrap: wrap; padding: 1.2rem 5vw; }
 }
 

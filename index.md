@@ -381,11 +381,32 @@ description: Coursework and learning notes by Zawin Awatif, a postgraduate cyber
 
 <section class="contact-section" id="contact" aria-labelledby="contact-title">
   <p class="eyebrow">07 / Contact information</p>
-  <h2 id="contact-title">Contact</h2>
-  <p>For academic or portfolio-related enquiries:</p>
-  <div class="contact-links">
-    <a href="mailto:your.email@example.com">your.email@example.com</a>
-    <a href="https://github.com/WinZapri">GitHub profile</a>
+  <h2 id="contact-title">Let's Connect.</h2>
+  <p class="contact-introduction">I'm always open to connecting with fellow cybersecurity professionals, researchers and people who share an interest in cryptography, data protection and security technologies.</p>
+  <div class="contact-grid">
+    <a class="contact-card" href="mailto:awinzapri@gmail.com">
+      <svg class="contact-icon" viewBox="0 0 24 24" aria-hidden="true"><rect x="3" y="5" width="18" height="14" rx="2"/><path d="m3 7 9 6 9-6"/></svg>
+      <span class="contact-card-copy">
+        <strong>Email</strong>
+        <span>awinzapri@gmail.com</span>
+      </span>
+      <svg class="external-arrow" viewBox="0 0 24 24" aria-hidden="true"><path d="M7 17 17 7M7 7h10v10"/></svg>
+    </a>
+    <a class="contact-card" href="https://github.com/WinZapri" target="_blank" rel="noopener noreferrer">
+      <svg class="contact-icon" viewBox="0 0 24 24" aria-hidden="true"><path d="M15 22v-4a4.8 4.8 0 0 0-1-3.5c3.28-.36 6.72-1.61 6.72-7.32A5.71 5.71 0 0 0 19.2 3.17 5.31 5.31 0 0 0 19.05-.05S17.87-.5 15 1.28a13.38 13.38 0 0 0-6 0C6.13-.5 4.95.05 4.95.05A5.31 5.31 0 0 0 4.8 3.17 5.71 5.71 0 0 0 3.28 7.18c0 5.69 3.44 6.94 6.72 7.32A4.8 4.8 0 0 0 9 18v4"/><path d="M9 19c-3 .91-3-1.5-4-2"/></svg>
+      <span class="contact-card-copy">
+        <strong>GitHub</strong>
+        <span>github.com/WinZapri</span>
+      </span>
+      <svg class="external-arrow" viewBox="0 0 24 24" aria-hidden="true"><path d="M7 17 17 7M7 7h10v10"/></svg>
+    </a>
+    <a class="contact-card" href="https://www.linkedin.com/in/zawin-awatif/" target="_blank" rel="noopener noreferrer">
+      <svg class="contact-icon" viewBox="0 0 24 24" aria-hidden="true"><rect x="3" y="9" width="4" height="12"/><circle cx="5" cy="5" r="2"/><path d="M11 21V9h4v2c1-2 6-2 6 4v6h-4v-5c0-2-2-2-2 0v5z"/></svg>
+      <span class="contact-card-copy">
+        <strong>LinkedIn</strong>
+        <span>linkedin.com/in/zawin-awatif</span>
+      </span>
+      <svg class="external-arrow" viewBox="0 0 24 24" aria-hidden="true"><path d="M7 17 17 7M7 7h10v10"/></svg>
+    </a>
   </div>
-  <p class="small-note">The email address is a placeholder. Replace it only with a public address you are comfortable sharing.</p>
 </section>
