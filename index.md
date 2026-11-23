@@ -288,15 +288,15 @@ description: Coursework and learning notes by Zawin Awatif, a postgraduate cyber
 
       <article class="roadmap-item roadmap-item--future">
         <div class="roadmap-marker" aria-hidden="true">
-          <svg viewBox="0 0 24 24"><path d="M6 3h12v7a6 6 0 0 1-12 0z"/><path d="M8 21h8M12 16v5M6 5H3v2a4 4 0 0 0 4 4M18 5h3v2a4 4 0 0 1-4 4"/></svg>
+          <svg viewBox="0 0 24 24"><path d="M12 22s8-4 8-11V5l-8-3-8 3v6c0 7 8 11 8 11z"/><rect x="9" y="10" width="6" height="5" rx="1"/><path d="M10 10V8a2 2 0 0 1 4 0v2"/></svg>
         </div>
         <button class="roadmap-card" type="button" aria-expanded="false" aria-controls="roadmap-description-6">
           <span class="roadmap-card-head">
             <span><span class="roadmap-date">2028 and Beyond</span><span class="roadmap-status">Future Goal</span></span>
             <svg class="roadmap-chevron" viewBox="0 0 24 24" aria-hidden="true"><path d="m6 9 6 6 6-6"/></svg>
           </span>
-          <span class="roadmap-title">My Career Aspiration</span>
-          <span class="roadmap-description" id="roadmap-description-6" hidden>My long-term ambition is to become a cybersecurity specialist with expertise in penetration testing, threat hunting and cryptography research. I want to contribute to cybersecurity research and develop practical solutions that help organisations strengthen their security. I aim to combine defensive experience, rigorous technical testing and clear communication so that research findings lead to useful improvements rather than remain isolated from operational decisions.</span>
+          <span class="roadmap-title">Protecting Malaysia's Digital Future</span>
+          <span class="roadmap-description" id="roadmap-description-6" hidden>My long-term ambition is to become an expert in <span class="roadmap-highlight">Post-Quantum Cryptography (PQC)</span> and <span class="roadmap-highlight">cryptanalysis</span>, helping Malaysia strengthen its cyber defenses against emerging threats. I aim to deepen my technical expertise in encryption, data protection and <span class="roadmap-highlight">quantum-resistant security</span> through research and practical experience. Ultimately, I hope to contribute to Malaysia’s cybersecurity resilience and become a recognised specialist in protecting the nation’s digital future.</span>
         </button>
       </article>
     </div>
