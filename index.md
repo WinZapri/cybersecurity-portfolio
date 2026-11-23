@@ -21,9 +21,9 @@ description: Coursework and learning notes by Zawin Awatif, a postgraduate cyber
     <p>Hi! I'm Zawin Awatif, currently pursuing a Master of Cybersecurity at Universiti Malaya. I graduated with a Bachelor's Degree in Computer Science (Hons.) Netcentric Computing from Universiti Teknologi MARA (UiTM). My journey in cybersecurity began with hands-on experience as a SOC Analyst Intern at CyberSecurity Malaysia, where I was involved in security monitoring, alert analysis and threat intelligence. I later gained experience in cybersecurity consulting, governance, risk management and security infrastructure, which helped me understand cybersecurity from both technical and organisational perspectives.</p>
     <p>I am particularly interested in cryptography, penetration testing, network security and cybersecurity research. I enjoy exploring how security technologies work, understanding cyber threats and finding practical ways to protect systems and information. Through my postgraduate studies, I hope to deepen my knowledge of cryptography and strengthen my technical and research skills. This portfolio showcases my hands-on projects, learning experiences and professional development as I continue building my career in cybersecurity.</p>
     <div class="about-meta">
-      <div><span class="meta-label">Programme</span><strong>Master of Cybersecurity</strong></div>
-      <div><span class="meta-label">University</span><strong>Universiti Malaya</strong></div>
-      <div><span class="meta-label">Course</span><strong>WQE7001 Cyber Security</strong></div>
+      <div><span class="meta-label">Penetration Testing</span><strong>Offensive Security</strong></div>
+      <div><span class="meta-label">Cryptography</span><strong>Data Protection</strong></div>
+      <div><span class="meta-label">Threat Hunting</span><strong>Threat Detection</strong></div>
     </div>
   </div>
 </section>
