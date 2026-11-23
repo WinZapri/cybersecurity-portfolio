@@ -63,6 +63,7 @@ description: Coursework and learning notes by Zawin Awatif, a postgraduate cyber
   </div>
   <div class="project-grid">
     <article class="project-card">
+      <p class="project-status">Initial setup completed</p>
       <h3>Virtual Cybersecurity Lab Setup</h3>
       <p>VMware host-only settings, Kali Linux and Metasploitable2 network details, and fresh-install snapshots are documented.</p>
       <a class="card-link" href="{{ '/projects/virtual-lab-setup/' | relative_url }}">Read the project notes <span aria-hidden="true">↗</span></a>
