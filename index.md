@@ -59,7 +59,7 @@ description: Coursework and learning notes by Zawin Awatif, a postgraduate cyber
   <div class="section-heading">
     <p class="eyebrow">04 / Projects</p>
     <h2 id="projects-title">Coursework projects</h2>
-    <p class="section-intro">Coursework projects documenting a virtual lab and a planned, authorised network-scanning exercise.</p>
+    <p class="section-intro">Coursework projects documenting a virtual lab and a completed Nmap discovery and service-enumeration exercise.</p>
   </div>
   <div class="project-grid">
     <article class="project-card">
@@ -69,9 +69,9 @@ description: Coursework and learning notes by Zawin Awatif, a postgraduate cyber
       <a class="card-link" href="{{ '/projects/virtual-lab-setup/' | relative_url }}">Read the project notes <span aria-hidden="true">↗</span></a>
     </article>
     <article class="project-card">
-      <p class="project-status">Planned</p>
+      <p class="project-status">Completed</p>
       <h3>Network Scanning and Service Enumeration Using Nmap</h3>
-      <p>A proposed exercise to study service information on an explicitly authorised target in a controlled lab. No scan results are claimed.</p>
+      <p>Host discovery, a 23-port TCP scan and service/version identification on Metasploitable2 in the authorised VMware lab.</p>
       <a class="card-link" href="{{ '/projects/nmap-service-scan/' | relative_url }}">Read the project notes <span aria-hidden="true">↗</span></a>
     </article>
   </div>
