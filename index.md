@@ -15,11 +15,11 @@ description: Coursework and learning notes by Zawin Awatif, a postgraduate cyber
 <section class="section" id="about" aria-labelledby="about-title">
   <div class="section-heading">
     <p class="eyebrow">01 / About me</p>
-    <h2 id="about-title">A little about my studies</h2>
+    <h2 id="about-title">About Me</h2>
   </div>
   <div class="section-body">
-    <p>I’m Zawin Awatif, a postgraduate student on the Master of Cybersecurity programme at Universiti Malaya. This portfolio is part of WQE7001 Cyber Security. I use it to keep a clear record of what I study, the questions I am working through and the practical work I complete. I am still building my technical foundations, so I want each entry to show what I have actually done rather than suggest a level of experience I have not yet gained.</p>
-    <p>At present, the portfolio contains plans for a virtual lab and an Nmap exercise, not reports of completed work. I will add configurations, results and evidence when I have carried out and checked the exercises. The same applies to certifications and skill ratings: I will include them when I can verify them. My aim is to make this a useful account of my progress as a student, including what remains uncertain and what I need to practise next.</p>
+    <p>Hi! I'm Zawin Awatif, currently pursuing a Master of Cybersecurity at Universiti Malaya. I graduated with a Bachelor's Degree in Computer Science (Hons.) Netcentric Computing from Universiti Teknologi MARA (UiTM). My journey in cybersecurity began with hands-on experience as a SOC Analyst Intern at CyberSecurity Malaysia, where I was involved in security monitoring, alert analysis and threat intelligence. I later gained experience in cybersecurity consulting, governance, risk management and security infrastructure, which helped me understand cybersecurity from both technical and organisational perspectives.</p>
+    <p>I am particularly interested in cryptography, penetration testing, network security and cybersecurity research. I enjoy exploring how security technologies work, understanding cyber threats and finding practical ways to protect systems and information. Through my postgraduate studies, I hope to deepen my knowledge of cryptography and strengthen my technical and research skills. This portfolio showcases my hands-on projects, learning experiences and professional development as I continue building my career in cybersecurity.</p>
     <div class="about-meta">
       <div><span class="meta-label">Programme</span><strong>Master of Cybersecurity</strong></div>
       <div><span class="meta-label">University</span><strong>Universiti Malaya</strong></div>
