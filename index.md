@@ -376,8 +376,8 @@ description: Coursework and learning notes by Zawin Awatif, a postgraduate cyber
         <h3 id="future-stage-title">My Future Ambition</h3>
         <article class="future-card">
           <svg class="future-icon" viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="8" r="6"/><path d="M8.21 13.89 7 22l5-3 5 3-1.21-8.11"/><path d="m9.5 8 1.5 1.5L14.5 6"/></svg>
-          <h4>Becoming a Recognised Cybersecurity Expert in Malaysia</h4>
-          <p>My long-term ambition is to contribute to cybersecurity research, technical innovation and stronger data protection practices in Malaysia.</p>
+          <h4>Becoming a <span class="future-highlight">Post-Quantum Cryptography (PQC)</span> Expert in Malaysia</h4>
+          <p>My ambition is to become a recognised expert in Post-Quantum Cryptography (PQC) and cryptanalysis, contributing to Malaysia’s cybersecurity resilience. I aim to advance quantum-resistant encryption, strengthen data protection and help safeguard Malaysia’s digital infrastructure against emerging cyber threats.</p>
         </article>
       </section>
     </div>
