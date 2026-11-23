@@ -204,16 +204,97 @@ description: Coursework and learning notes by Zawin Awatif, a postgraduate cyber
 
 <section class="section journey-section" id="journey" aria-labelledby="journey-title">
   <div class="section-heading journey-heading">
-    <p class="eyebrow">05 / Learning journey</p>
-    <h2 id="journey-title">Where I am in my studies</h2>
+    <p class="eyebrow">05 / LEARNING JOURNEY</p>
+    <h2 id="journey-title">My Cybersecurity Roadmap</h2>
+    <p class="section-intro">From building my technical foundation to exploring penetration testing, threat hunting and cryptography research.</p>
   </div>
-  <div class="journey-copy">
-    <p>At this stage of my studies, I am learning how to turn cybersecurity concepts into work that can be explained and checked. WQE7001 Cyber Security is part of my Master of Cybersecurity programme at Universiti Malaya, and this portfolio is one way I can keep track of that learning. I have completed the initial virtual lab configuration and recorded the relevant screenshots, but I have not yet finished communication or isolation validation. It is important to me that the portfolio makes that distinction clear.</p>
-    <p>One question I keep in mind is what a piece of evidence actually tells me. A tool can produce output, but the output does not explain itself. I need to know what system was in scope, what method I used, and what limitations might affect the result. I also need to separate what I observed from what I think it means. That is a habit I want to develop as I move from reading about security topics to carrying out practical work.</p>
-    <p>The first project is the initial setup of a VMware-based virtual lab. I have documented the Kali Linux and Metasploitable2 systems, the host-only network settings and their fresh-install snapshots. I still need to verify communication between the machines and whether external network access is blocked. The second is a planned Nmap exercise. I will only carry it out against a target that is explicitly authorised and inside the lab scope. No scan output or result is presented here because that exercise has not been completed.</p>
-    <p>For each exercise, I intend to write down the objective and scope before beginning. I will keep the method simple enough for someone else to follow, save only relevant and sanitised evidence, and note anything that could make the result incomplete. Afterwards, I want to reflect on what I learned and what I would change. This should help me avoid treating a successful command or a neat screenshot as proof that I understand the underlying issue.</p>
-    <p>I am also leaving my skill levels unassessed for now. A rating should be based on work I can point to, not on a topic appearing in a course outline or on a tool being named in a project plan. As I complete coursework, I can add examples and revisit the ratings honestly. If I do not have evidence for a skill or a result, I will say so rather than fill the gap with a confident-sounding claim.</p>
-    <p>My progress will not be measured only by how many topics or tools I can list. I would like to become more precise in how I describe a problem, more careful about the limits of an observation, and clearer about why a particular step was appropriate. I expect my notes to change as I learn more. When they do, I can update them to show what I understand now and what I still need to practise. For me, that is a more useful record of postgraduate study than presenting this portfolio as if the learning were already complete.</p>
+  <div class="journey-roadmap">
+    <p class="current-stage"><span aria-hidden="true"></span><strong>Current Stage:</strong> Postgraduate Studies &amp; Technical Specialisation</p>
+    <div class="roadmap-timeline">
+      <article class="roadmap-item roadmap-item--completed">
+        <div class="roadmap-marker" aria-hidden="true">
+          <svg viewBox="0 0 24 24"><path d="m16 2-4 4-4-4"/><path d="M3 7h18v11H3z"/><path d="M12 7v11"/></svg>
+        </div>
+        <button class="roadmap-card" type="button" aria-expanded="false" aria-controls="roadmap-description-1">
+          <span class="roadmap-card-head">
+            <span><span class="roadmap-date">2023–2024</span><span class="roadmap-status">Completed</span></span>
+            <svg class="roadmap-chevron" viewBox="0 0 24 24" aria-hidden="true"><path d="m6 9 6 6 6-6"/></svg>
+          </span>
+          <span class="roadmap-title">Building My Foundation</span>
+          <span class="roadmap-description" id="roadmap-description-1" hidden>I studied Bachelor of Computer Science (Hons.) in Netcentric Computing at Universiti Teknologi MARA (UiTM), Shah Alam. During my studies, I developed an interest in networking, cybersecurity and ethical hacking. My coursework and foundational training in cloud computing, networking and cybersecurity gave me a practical technical base and encouraged me to investigate how systems communicate, fail and remain secure.</span>
+        </button>
+      </article>
+
+      <article class="roadmap-item roadmap-item--completed">
+        <div class="roadmap-marker" aria-hidden="true">
+          <svg viewBox="0 0 24 24"><path d="M20 13c0 5-3.5 7.5-8 9-4.5-1.5-8-4-8-9V5l8-3 8 3z"/><path d="m9 12 2 2 4-4"/></svg>
+        </div>
+        <button class="roadmap-card" type="button" aria-expanded="false" aria-controls="roadmap-description-2">
+          <span class="roadmap-card-head">
+            <span><span class="roadmap-date">2024–2025</span><span class="roadmap-status">Completed</span></span>
+            <svg class="roadmap-chevron" viewBox="0 0 24 24" aria-hidden="true"><path d="m6 9 6 6 6-6"/></svg>
+          </span>
+          <span class="roadmap-title">My First Step into Cybersecurity</span>
+          <span class="roadmap-description" id="roadmap-description-2" hidden>I completed my SOC Analyst internship at MyCERT, CyberSecurity Malaysia, where I gained practical exposure to security monitoring, SIEM, log analysis and threat intelligence. I learned how analysts use evidence to investigate alerts, place events in context and communicate uncertainty. This experience helped me understand how cybersecurity operations work in a real organisational environment and shaped my interest in defensive security.</span>
+        </button>
+      </article>
+
+      <article class="roadmap-item roadmap-item--completed">
+        <div class="roadmap-marker" aria-hidden="true">
+          <svg viewBox="0 0 24 24"><rect x="2" y="7" width="20" height="14" rx="2"/><path d="M8 7V5a2 2 0 0 1 2-2h4a2 2 0 0 1 2 2v2"/><path d="M12 12v4"/></svg>
+        </div>
+        <button class="roadmap-card" type="button" aria-expanded="false" aria-controls="roadmap-description-3">
+          <span class="roadmap-card-head">
+            <span><span class="roadmap-date">2025–2026</span><span class="roadmap-status">Completed</span></span>
+            <svg class="roadmap-chevron" viewBox="0 0 24 24" aria-hidden="true"><path d="m6 9 6 6 6-6"/></svg>
+          </span>
+          <span class="roadmap-title">Growing Through Professional Experience</span>
+          <span class="roadmap-description" id="roadmap-description-3" hidden>I worked as a Cybersecurity Consultant at Diaspora Sdn Bhd, supporting information security management, risk assessments and GRC documentation. I later joined CD-X Security as a Junior Cyber Security Engineer, where I gained experience with security infrastructure, virtualisation, threat intelligence platforms and cyber range environments. Moving between governance and engineering broadened my view of security from both organisational controls and practical technical operations.</span>
+        </button>
+      </article>
+
+      <article class="roadmap-item roadmap-item--current">
+        <div class="roadmap-marker" aria-hidden="true">
+          <svg viewBox="0 0 24 24"><circle cx="12" cy="12" r="8"/><circle cx="12" cy="12" r="3"/><path d="M12 2v3M22 12h-3M12 22v-3M2 12h3"/></svg>
+        </div>
+        <button class="roadmap-card" type="button" aria-expanded="false" aria-controls="roadmap-description-4">
+          <span class="roadmap-card-head">
+            <span><span class="roadmap-date">2026–Present</span><span class="roadmap-status">Current · YOU ARE HERE</span></span>
+            <svg class="roadmap-chevron" viewBox="0 0 24 24" aria-hidden="true"><path d="m6 9 6 6 6-6"/></svg>
+          </span>
+          <span class="roadmap-title">Master's &amp; Technical Specialisation</span>
+          <span class="roadmap-description" id="roadmap-description-4" hidden>I am currently pursuing a Master of Cybersecurity at Universiti Malaya. My main interests are penetration testing, cryptography and threat hunting. I am strengthening my technical skills through practical coursework involving virtual cybersecurity labs, Nmap, network security programming and cryptographic exercises. This stage is also teaching me to document scope, preserve relevant evidence, explain limitations and distinguish observations from conclusions.</span>
+        </button>
+      </article>
+
+      <article class="roadmap-item roadmap-item--planned">
+        <div class="roadmap-marker" aria-hidden="true">
+          <svg viewBox="0 0 24 24"><polyline points="4 17 10 11 14 15 20 9"/><polyline points="14 9 20 9 20 15"/></svg>
+        </div>
+        <button class="roadmap-card" type="button" aria-expanded="false" aria-controls="roadmap-description-5">
+          <span class="roadmap-card-head">
+            <span><span class="roadmap-date">2027</span><span class="roadmap-status">Planned</span></span>
+            <svg class="roadmap-chevron" viewBox="0 0 24 24" aria-hidden="true"><path d="m6 9 6 6 6-6"/></svg>
+          </span>
+          <span class="roadmap-title">Developing Deeper Technical Expertise</span>
+          <span class="roadmap-description" id="roadmap-description-5" hidden>I aim to improve my penetration testing methodology, threat hunting capabilities and Python security programming. I also plan to explore cryptographic research, participate in cybersecurity challenges and build more practical projects that demonstrate my technical growth. My focus will be on repeatable methods and work that can be tested or reviewed rather than collecting tools or credentials without producing clear evidence of understanding.</span>
+        </button>
+      </article>
+
+      <article class="roadmap-item roadmap-item--future">
+        <div class="roadmap-marker" aria-hidden="true">
+          <svg viewBox="0 0 24 24"><path d="M6 3h12v7a6 6 0 0 1-12 0z"/><path d="M8 21h8M12 16v5M6 5H3v2a4 4 0 0 0 4 4M18 5h3v2a4 4 0 0 1-4 4"/></svg>
+        </div>
+        <button class="roadmap-card" type="button" aria-expanded="false" aria-controls="roadmap-description-6">
+          <span class="roadmap-card-head">
+            <span><span class="roadmap-date">2028 and Beyond</span><span class="roadmap-status">Future Goal</span></span>
+            <svg class="roadmap-chevron" viewBox="0 0 24 24" aria-hidden="true"><path d="m6 9 6 6 6-6"/></svg>
+          </span>
+          <span class="roadmap-title">My Career Aspiration</span>
+          <span class="roadmap-description" id="roadmap-description-6" hidden>My long-term ambition is to become a cybersecurity specialist with expertise in penetration testing, threat hunting and cryptography research. I want to contribute to cybersecurity research and develop practical solutions that help organisations strengthen their security. I aim to combine defensive experience, rigorous technical testing and clear communication so that research findings lead to useful improvements rather than remain isolated from operational decisions.</span>
+        </button>
+      </article>
+    </div>
   </div>
 </section>
 
