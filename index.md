@@ -5,11 +5,16 @@ description: Coursework and learning notes by Zawin Awatif, a postgraduate cyber
 ---
 
 <section class="hero" aria-labelledby="hero-title">
-  <p class="eyebrow">WQE7001 Cyber Security · Universiti Malaya</p>
-  <h1 id="hero-title">Zawin Awatif</h1>
-  <p class="hero-copy">Cryptography Researcher | Cybersecurity Enthusiast</p>
-  <a class="button" href="#projects">View my coursework projects <span aria-hidden="true">↓</span></a>
-  <p class="hero-note">Portfolio in progress</p>
+  <div class="hero-content">
+    <p class="eyebrow">WQE7001 Cyber Security · Universiti Malaya</p>
+    <h1 id="hero-title">Zawin Awatif</h1>
+    <p class="hero-copy">Cryptography Researcher | Cybersecurity Enthusiast</p>
+    <p class="hero-description">Exploring cryptography, data protection and cybersecurity research through practical experience and continuous learning.</p>
+    <a class="button" href="#projects">View My Projects <span aria-hidden="true">↓</span></a>
+  </div>
+  <div class="hero-portrait">
+    <img src="{{ '/assets/images/zawin-awatif-portrait.png' | relative_url }}" alt="Illustrated portrait of Zawin Awatif wearing glasses, a beige hijab and a dark hoodie.">
+  </div>
 </section>
 
 <section class="section" id="about" aria-labelledby="about-title">
