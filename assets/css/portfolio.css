@@ -45,6 +45,7 @@ main { overflow: hidden; }
 .section-intro { max-width: 330px; margin-top: 1rem; color: var(--muted); font-size: .9rem; }
 .section-body { max-width: 720px; color: #d0dadd; }
 .section-body > p:first-child { margin-top: 0; }
+.about-highlight { color: var(--purple); font-weight: 600; }
 .about-meta { display: grid; grid-template-columns: repeat(3, 1fr); gap: 1rem; margin-top: 2rem; padding-top: 1.25rem; border-top: 1px solid var(--line); }
 .about-meta div { display: flex; flex-direction: column; gap: .3rem; }
 .meta-label { color: var(--purple); font-size: .65rem; }
