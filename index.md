@@ -295,8 +295,8 @@ description: Coursework and learning notes by Zawin Awatif, a postgraduate cyber
             <span><span class="roadmap-date">2028 and Beyond</span><span class="roadmap-status">Future Goal</span></span>
             <svg class="roadmap-chevron" viewBox="0 0 24 24" aria-hidden="true"><path d="m6 9 6 6 6-6"/></svg>
           </span>
-          <span class="roadmap-title">Becoming a Post-Quantum Cryptography (PQC) Expert in Malaysia</span>
-          <span class="roadmap-description" id="roadmap-description-6" hidden>My ambition is to become a recognised expert in Post-Quantum Cryptography (PQC) and cryptanalysis, contributing to Malaysia’s cybersecurity resilience. I aim to advance quantum-resistant encryption, strengthen data protection and help safeguard Malaysia’s digital infrastructure against emerging cyber threats.</span>
+          <span class="roadmap-title">My Career Aspiration</span>
+          <span class="roadmap-description" id="roadmap-description-6" hidden>My long-term ambition is to become a cybersecurity specialist with expertise in penetration testing, threat hunting and cryptography research. I want to contribute to cybersecurity research and develop practical solutions that help organisations strengthen their security. I aim to combine defensive experience, rigorous technical testing and clear communication so that research findings lead to useful improvements rather than remain isolated from operational decisions.</span>
         </button>
       </article>
     </div>
