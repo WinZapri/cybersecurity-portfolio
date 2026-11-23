@@ -7,7 +7,7 @@ description: Coursework and learning notes by Zawin Awatif, a postgraduate cyber
 <section class="hero" aria-labelledby="hero-title">
   <div class="hero-content">
     <p class="eyebrow">PTPKM · Universiti Malaya</p>
-    <h1 id="hero-title">Zawin Awatif</h1>
+    <h1 id="hero-title">Awin</h1>
     <p class="hero-copy">Cryptography Researcher | Cybersecurity Enthusiast</p>
     <p class="hero-description">Exploring cryptography, data protection and cybersecurity research through practical experience and continuous learning.</p>
     <a class="button" href="#projects">View My Projects <span aria-hidden="true">↓</span></a>

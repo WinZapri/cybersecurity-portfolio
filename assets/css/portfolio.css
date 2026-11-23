@@ -20,6 +20,7 @@ a:focus-visible { outline: 2px solid var(--pink); outline-offset: 4px; }
 .site-header { position: sticky; z-index: 10; top: 0; display: flex; align-items: center; justify-content: space-between; gap: 1.5rem; min-height: 72px; padding: .75rem max(6vw, calc((100vw - 1120px) / 2)); border-bottom: 1px solid var(--line); background: var(--navy); }
 .brand { display: flex; align-items: center; gap: .75rem; color: var(--text); font-size: .88rem; font-weight: 700; text-decoration: none; }
 .brand-mark { display: grid; width: 34px; height: 34px; place-items: center; border: 1px solid var(--purple); color: var(--purple); font-weight: 700; }
+.brand-mark svg { display: block; width: 23px; height: 23px; overflow: visible; fill: none; stroke: currentColor; stroke-width: 1.45; stroke-linecap: round; stroke-linejoin: round; }
 .brand-subtitle { display: block; margin-top: .1rem; color: var(--muted); font-size: .62rem; font-weight: 400; letter-spacing: .06em; }
 .site-nav { display: flex; flex-wrap: wrap; align-items: center; gap: .55rem 1.15rem; }
 .site-nav a { color: var(--muted); font-size: .84rem; text-decoration: none; }
