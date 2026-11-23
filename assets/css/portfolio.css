@@ -185,3 +185,78 @@ main { overflow: hidden; }
     max-height: none;
   }
 }
+
+.project-document {
+  max-width: 1120px;
+  margin: 0 auto;
+  padding: 4rem max(6vw, 24px);
+}
+
+.project-document h1 {
+  margin: 0 0 1.5rem;
+  font-size: clamp(2.2rem, 5vw, 3.5rem);
+  line-height: 1.15;
+}
+
+.project-document h2 {
+  margin: 2rem 0 .75rem;
+  color: var(--teal);
+  font-size: clamp(1.35rem, 3vw, 1.8rem);
+  line-height: 1.3;
+}
+
+.project-document p,
+.project-document li {
+  color: #d0dadd;
+}
+
+.project-document img {
+  display: block;
+  max-width: 100%;
+  height: auto;
+}
+
+.project-document table {
+  width: 100%;
+  margin: 1.25rem 0;
+  border-collapse: collapse;
+  color: var(--text);
+  font-size: .9rem;
+  line-height: 1.5;
+}
+
+.project-document th,
+.project-document td {
+  padding: .65rem;
+  border-bottom: 1px solid var(--line);
+  text-align: left;
+  vertical-align: top;
+}
+
+.project-document th {
+  color: var(--teal);
+}
+
+.project-document pre {
+  overflow-x: auto;
+  padding: 1rem;
+  border: 1px solid var(--line);
+  background: var(--navy-light);
+}
+
+@media (max-width: 800px) {
+  .project-document {
+    padding: 3rem 7vw;
+  }
+}
+
+@media (max-width: 560px) {
+  .project-document {
+    padding: 2.5rem 1rem;
+  }
+
+  .project-document table {
+    display: block;
+    overflow-x: auto;
+  }
+}

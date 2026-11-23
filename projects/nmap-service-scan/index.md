@@ -1,8 +1,10 @@
 ---
 layout: default
 title: Network Scanning and Service Enumeration Using Nmap
-description: Documentation for an authorised Nmap exercise in a controlled virtual lab.
+description: Completed Nmap lab exercise for host discovery, TCP port scanning and service identification.
 ---
 
-{% capture project_document %}{% include_relative README.md %}{% endcapture %}
-{{ project_document | markdownify }}
+<article class="project-document">
+  {% capture project_document %}{% include_relative README.md %}{% endcapture %}
+  {{ project_document | markdownify }}
+</article>
