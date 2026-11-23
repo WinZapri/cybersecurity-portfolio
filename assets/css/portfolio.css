@@ -75,6 +75,20 @@ main { overflow: hidden; }
 .project-card h3 { max-width: 480px; }
 .card-link { display: flex; justify-content: space-between; gap: 1rem; width: 100%; margin-top: auto; padding-top: 1.5rem; color: var(--pink); font-size: .88rem; text-decoration: none; }
 .card-link:hover, .contact-links a:hover { text-decoration: underline; text-underline-offset: .2em; }
+.certificate-grid { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 1rem; }
+.certificate-card { display: flex; min-width: 0; flex-direction: column; overflow: hidden; border: 1px solid var(--line); background: var(--navy-light); transition: border-color .18s ease, transform .18s ease; }
+.certificate-card:hover { transform: translateY(-2px); border-color: var(--purple); }
+.certificate-preview { display: grid; height: 190px; place-items: center; padding: .5rem; background: #fff; }
+.certificate-preview img { display: block; width: 100%; height: 100%; object-fit: contain; }
+.certificate-content { display: flex; flex: 1; flex-direction: column; align-items: flex-start; padding: 1.1rem; }
+.credential-type { display: inline-block; margin-bottom: .65rem; padding: .12rem .5rem; border: 1px solid var(--line); color: var(--purple); font-size: .68rem; line-height: 1.6; }
+.certificate-content h3 { margin: 0 0 .45rem; font-size: 1rem; font-weight: 600; line-height: 1.4; }
+.certificate-content p { margin: 0 0 .8rem; color: var(--muted); font-size: .84rem; line-height: 1.55; }
+.certificate-content .certificate-issuer { color: var(--text); font-size: .78rem; }
+.certificate-link { display: inline-flex; gap: .45rem; margin-top: auto; padding-top: .5rem; color: var(--pink); font-size: .86rem; text-decoration: none; }
+.certificate-link:hover { text-decoration: underline; text-underline-offset: .2em; }
+.certifications-section { display: block; }
+.certifications-section > .section-heading { margin-bottom: 2rem; }
 .journey-section { background: var(--navy); }
 .journey-heading { align-self: start; }
 .journey-copy { max-width: 720px; color: #d0dadd; }
@@ -96,7 +110,7 @@ main { overflow: hidden; }
   .site-nav a { font-size: .8rem; }
   .hero { min-height: 340px; padding: 4rem 7vw; }
   .section { grid-template-columns: 1fr; gap: 1.5rem; padding: 4rem 7vw; }
-  .skills-grid { grid-template-columns: repeat(2, minmax(0, 1fr)); }
+  .skills-grid, .certificate-grid { grid-template-columns: repeat(2, minmax(0, 1fr)); }
   .projects-section > .section-heading { grid-template-columns: 1fr; }
   .projects-section .section-heading .eyebrow, .projects-section .section-heading h2, .projects-section .section-intro { grid-column: 1; grid-row: auto; justify-self: start; }
   .projects-section .section-intro { margin-top: .8rem; }
@@ -106,7 +120,7 @@ main { overflow: hidden; }
 
 @media (max-width: 560px) {
   body { font-size: 15px; }
-  .skills-grid, .project-grid { grid-template-columns: 1fr; }
+  .skills-grid, .project-grid, .certificate-grid { grid-template-columns: 1fr; }
   .about-meta { grid-template-columns: 1fr; gap: .8rem; }
   .project-card { min-height: 220px; }
   .site-footer { align-items: flex-start; flex-direction: column; }
@@ -114,6 +128,7 @@ main { overflow: hidden; }
 
 @media (prefers-reduced-motion: reduce) {
   * { scroll-behavior: auto !important; }
+  .certificate-card { transition: none; }
 }
 
 .evidence-page {
