@@ -59,11 +59,10 @@ description: Coursework and learning notes by Zawin Awatif, a postgraduate cyber
   <div class="section-heading">
     <p class="eyebrow">04 / Projects</p>
     <h2 id="projects-title">Coursework projects</h2>
-    <p class="section-intro">The virtual lab has an initial configuration; final communication and isolation checks remain pending.</p>
+    <p class="section-intro">Coursework projects documenting a virtual lab and a planned, authorised network-scanning exercise.</p>
   </div>
   <div class="project-grid">
     <article class="project-card">
-      <p class="project-status">Initial setup completed - validation pending</p>
       <h3>Virtual Cybersecurity Lab Setup</h3>
       <p>VMware host-only settings, Kali Linux and Metasploitable2 network details, and fresh-install snapshots are documented.</p>
       <a class="card-link" href="{{ '/projects/virtual-lab-setup/' | relative_url }}">Read the project notes <span aria-hidden="true">↗</span></a>
