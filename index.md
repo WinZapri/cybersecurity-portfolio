@@ -301,11 +301,81 @@ description: Coursework and learning notes by Zawin Awatif, a postgraduate cyber
 <section class="section career-section" id="career" aria-labelledby="career-title">
   <div class="section-heading">
     <p class="eyebrow">06 / Career objective</p>
-    <h2 id="career-title">Career objective</h2>
+    <h2 id="career-title">Finding My Direction in Cybersecurity</h2>
   </div>
-  <div class="section-body">
-    <p>I want to build a career in cybersecurity on a sound technical foundation. During my postgraduate studies, I aim to understand security principles and learn to apply them carefully in authorised, well-defined settings. I also want to improve at explaining what I found, how I reached a conclusion and where the evidence is limited.</p>
-    <p>As I gain experience, I hope to contribute to work that protects systems and information while treating privacy and permission as part of the task, not as an afterthought. I know I still have more to learn. I plan to keep developing through coursework, practical exercises and feedback, and to be clear about the difference between skills I am studying and experience I have gained.</p>
+  <div class="career-dashboard">
+    <details class="career-narrative">
+      <summary>Read my career objective</summary>
+      <div>
+        <p>I want to build a career in cybersecurity on a sound technical foundation. During my postgraduate studies, I aim to understand security principles and learn to apply them carefully in authorised, well-defined settings. I also want to improve at explaining what I found, how I reached a conclusion and where the evidence is limited.</p>
+        <p>As I gain experience, I hope to contribute to work that protects systems and information while treating privacy and permission as part of the task, not as an afterthought. I know I still have more to learn. I plan to keep developing through coursework, practical exercises and feedback, and to be clear about the difference between skills I am studying and experience I have gained.</p>
+      </div>
+    </details>
+
+    <div class="career-stages" aria-label="Career direction stages">
+      <section class="career-stage career-stage--experience" aria-labelledby="experience-stage-title">
+        <p class="career-stage-label">Stage 1</p>
+        <h3 id="experience-stage-title">My Professional Experience</h3>
+        <div class="experience-grid">
+          <button class="experience-card" type="button" aria-expanded="false" aria-controls="experience-description-1">
+            <span class="experience-card-head">
+              <svg class="career-icon" viewBox="0 0 24 24" aria-hidden="true"><path d="M20 13c0 5-3.5 7.5-8 9-4.5-1.5-8-4-8-9V5l8-3 8 3z"/><path d="m9 12 2 2 4-4"/></svg>
+              <svg class="experience-chevron" viewBox="0 0 24 24" aria-hidden="true"><path d="m6 9 6 6 6-6"/></svg>
+            </span>
+            <strong>SOC Analyst</strong>
+            <span class="experience-description" id="experience-description-1" hidden>At MyCERT, CyberSecurity Malaysia, I was exposed to security monitoring, SIEM, log analysis and threat intelligence. I learned to interpret alerts within organisational context and communicate observations carefully, rather than treating a signal as proof of an incident.</span>
+          </button>
+
+          <button class="experience-card" type="button" aria-expanded="false" aria-controls="experience-description-2">
+            <span class="experience-card-head">
+              <svg class="career-icon" viewBox="0 0 24 24" aria-hidden="true"><rect x="5" y="4" width="14" height="17" rx="2"/><path d="M9 4V2h6v2M9 10h6M9 14h6M9 18h4"/></svg>
+              <svg class="experience-chevron" viewBox="0 0 24 24" aria-hidden="true"><path d="m6 9 6 6 6-6"/></svg>
+            </span>
+            <strong>GRC / Cybersecurity Consultant</strong>
+            <span class="experience-description" id="experience-description-2" hidden>As a Cybersecurity Consultant at Diaspora Sdn Bhd, I supported information security management, risk assessments and GRC documentation. This experience taught me how technical concerns connect with governance, policies and organisational risk decisions.</span>
+          </button>
+
+          <button class="experience-card" type="button" aria-expanded="false" aria-controls="experience-description-3">
+            <span class="experience-card-head">
+              <svg class="career-icon" viewBox="0 0 24 24" aria-hidden="true"><rect x="3" y="4" width="18" height="16" rx="2"/><path d="m7 9 3 3-3 3M13 15h4"/></svg>
+              <svg class="experience-chevron" viewBox="0 0 24 24" aria-hidden="true"><path d="m6 9 6 6 6-6"/></svg>
+            </span>
+            <strong>Security Engineering &amp; Red Team Infrastructure</strong>
+            <span class="experience-description" id="experience-description-3" hidden>At CD-X Security, I worked as a Junior Cyber Security Engineer with security infrastructure, virtualisation, threat intelligence platforms and cyber range environments. I learned how engineered lab environments and security tooling support controlled technical practice and operational testing.</span>
+          </button>
+        </div>
+      </section>
+
+      <div class="career-arrow" aria-hidden="true"><span>→</span></div>
+
+      <section class="career-stage career-stage--focus" aria-labelledby="focus-stage-title">
+        <p class="career-stage-label">Stage 2</p>
+        <h3 id="focus-stage-title">My Current Focus</h3>
+        <article class="focus-card">
+          <span class="focus-status">CURRENT FOCUS</span>
+          <svg class="focus-icon" viewBox="0 0 24 24" aria-hidden="true"><rect x="3" y="11" width="18" height="10" rx="2"/><path d="M7 11V7a5 5 0 0 1 10 0v4"/><path d="M12 15v3"/></svg>
+          <h4>Cryptography &amp; Data Protection</h4>
+          <p>I am currently exploring cryptography research and developing deeper technical expertise in data protection, encryption and secure communication.</p>
+          <div class="focus-tags" aria-label="Current focus skills">
+            <span>Cryptography</span>
+            <span>Data Protection</span>
+            <span>Security Research</span>
+          </div>
+        </article>
+      </section>
+
+      <div class="career-arrow" aria-hidden="true"><span>→</span></div>
+
+      <section class="career-stage career-stage--future" aria-labelledby="future-stage-title">
+        <p class="career-stage-label">Stage 3</p>
+        <h3 id="future-stage-title">My Future Ambition</h3>
+        <article class="future-card">
+          <svg class="future-icon" viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="8" r="6"/><path d="M8.21 13.89 7 22l5-3 5 3-1.21-8.11"/><path d="m9.5 8 1.5 1.5L14.5 6"/></svg>
+          <h4>Becoming a Recognised Cybersecurity Expert in Malaysia</h4>
+          <p>My long-term ambition is to contribute to cybersecurity research, technical innovation and stronger data protection practices in Malaysia.</p>
+        </article>
+      </section>
+    </div>
   </div>
 </section>
 

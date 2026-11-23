@@ -14,6 +14,17 @@
     });
   });
 
+  document.querySelectorAll(".experience-card").forEach(function (card) {
+    card.addEventListener("click", function () {
+      var descriptionId = card.getAttribute("aria-controls");
+      var description = document.getElementById(descriptionId);
+      var isExpanded = card.getAttribute("aria-expanded") === "true";
+
+      card.setAttribute("aria-expanded", String(!isExpanded));
+      description.hidden = isExpanded;
+    });
+  });
+
   var reduceMotion = window.matchMedia("(prefers-reduced-motion: reduce)").matches;
   var items = document.querySelectorAll(".roadmap-item");
 
