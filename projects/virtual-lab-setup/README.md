@@ -1,5 +1,7 @@
 # Virtual Cybersecurity Lab Setup
 
+**Status:** Initial setup completed
+
 ## 1. Project Overview
 
 As part of my cybersecurity coursework, I set up an initial virtual lab using VMware, Kali Linux and Metasploitable2. I prepared Kali Linux as the testing machine and Metasploitable2 as the intentionally vulnerable target for future, authorised practice. My aim is to learn network security techniques in a lab environment rather than test systems outside its scope.
