@@ -59,13 +59,13 @@ description: Coursework and learning notes by Zawin Awatif, a postgraduate cyber
   <div class="section-heading">
     <p class="eyebrow">04 / Projects</p>
     <h2 id="projects-title">Coursework projects</h2>
-    <p class="section-intro">These are planned exercises. I will add methods, results and evidence after completing the work.</p>
+    <p class="section-intro">The virtual lab has an initial configuration; final communication and isolation checks remain pending.</p>
   </div>
   <div class="project-grid">
     <article class="project-card">
-      <p class="project-status">Planned</p>
+      <p class="project-status">Initial setup completed - validation pending</p>
       <h3>Virtual Cybersecurity Lab Setup</h3>
-      <p>A plan for an isolated virtual environment for authorised coursework. The setup and isolation checks have not yet been documented.</p>
+      <p>VMware host-only settings, Kali Linux and Metasploitable2 network details, and fresh-install snapshots are documented.</p>
       <a class="card-link" href="{{ '/projects/virtual-lab-setup/' | relative_url }}">Read the project notes <span aria-hidden="true">↗</span></a>
     </article>
     <article class="project-card">
@@ -83,9 +83,9 @@ description: Coursework and learning notes by Zawin Awatif, a postgraduate cyber
     <h2 id="journey-title">Where I am in my studies</h2>
   </div>
   <div class="journey-copy">
-    <p>At this stage of my studies, I am learning how to turn cybersecurity concepts into work that can be explained and checked. WQE7001 Cyber Security is part of my Master of Cybersecurity programme at Universiti Malaya, and this portfolio is one way I can keep track of that learning. I have started by outlining two practical exercises, but I have not yet added completed lab results. It is important to me that the portfolio makes that distinction clear.</p>
+    <p>At this stage of my studies, I am learning how to turn cybersecurity concepts into work that can be explained and checked. WQE7001 Cyber Security is part of my Master of Cybersecurity programme at Universiti Malaya, and this portfolio is one way I can keep track of that learning. I have completed the initial virtual lab configuration and recorded the relevant screenshots, but I have not yet finished communication or isolation validation. It is important to me that the portfolio makes that distinction clear.</p>
     <p>One question I keep in mind is what a piece of evidence actually tells me. A tool can produce output, but the output does not explain itself. I need to know what system was in scope, what method I used, and what limitations might affect the result. I also need to separate what I observed from what I think it means. That is a habit I want to develop as I move from reading about security topics to carrying out practical work.</p>
-    <p>The first planned project is a virtual cybersecurity lab. Before using it, I need to document the systems involved, how they are connected and how I will check that the environment is isolated. The second is an Nmap exercise. I will only carry it out against a target that is explicitly authorised and inside the lab scope. These are plans, not completed experiments: I have not supplied a configuration, scan output or result, so none is presented here as fact.</p>
+    <p>The first project is the initial setup of a VMware-based virtual lab. I have documented the Kali Linux and Metasploitable2 systems, the host-only network settings and their fresh-install snapshots. I still need to verify communication between the machines and whether external network access is blocked. The second is a planned Nmap exercise. I will only carry it out against a target that is explicitly authorised and inside the lab scope. No scan output or result is presented here because that exercise has not been completed.</p>
     <p>For each exercise, I intend to write down the objective and scope before beginning. I will keep the method simple enough for someone else to follow, save only relevant and sanitised evidence, and note anything that could make the result incomplete. Afterwards, I want to reflect on what I learned and what I would change. This should help me avoid treating a successful command or a neat screenshot as proof that I understand the underlying issue.</p>
     <p>I am also leaving my skill levels unassessed for now. A rating should be based on work I can point to, not on a topic appearing in a course outline or on a tool being named in a project plan. As I complete coursework, I can add examples and revisit the ratings honestly. If I do not have evidence for a skill or a result, I will say so rather than fill the gap with a confident-sounding claim.</p>
     <p>My progress will not be measured only by how many topics or tools I can list. I would like to become more precise in how I describe a problem, more careful about the limits of an observation, and clearer about why a particular step was appropriate. I expect my notes to change as I learn more. When they do, I can update them to show what I understand now and what I still need to practise. For me, that is a more useful record of postgraduate study than presenting this portfolio as if the learning were already complete.</p>

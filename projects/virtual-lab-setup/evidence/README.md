@@ -1,3 +1,5 @@
-# Evidence directory
+# Virtual lab evidence
 
-No evidence has been added yet. After completing the lab setup, add only relevant, sanitised evidence and caption each item in the project README. Do not include credentials, personal data, or unrelated systems.
+The screenshots in this gallery document the initial VMware lab configuration. They establish the host-only network settings, both guest addresses and the fresh-install snapshots.
+
+They do not confirm that the virtual machines can communicate or that external network access is blocked. Those checks remain pending.
