@@ -8,7 +8,7 @@ A Jekyll portfolio for WQE7001 Cyber Security at Universiti Malaya, published wi
 - Two project write-ups with consistent methodology, results, reflection, and evidence sections
 - Learning journey, career objective, and contact information
 
-The portfolio uses placeholders where personal details, proficiency ratings, certifications, project results, or evidence have not been provided. Replace them only with accurate, verifiable information. Never publish credentials, private contact details, or evidence from systems outside an authorised lab.
+The portfolio records personal details, proficiency ratings, credentials, project results, and evidence only where provided and verified. Never publish passwords, private contact details, certificate identifiers, or evidence from systems outside an authorised lab.
 
 ## GitHub Pages
 

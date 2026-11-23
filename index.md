@@ -75,13 +75,108 @@ description: Coursework and learning notes by Zawin Awatif, a postgraduate cyber
   <p class="level-key"><strong>Proficiency scale:</strong> Beginner · Developing · Proficient · Advanced</p>
 </section>
 
-<section class="section" id="certifications" aria-labelledby="certifications-title">
+<section class="section certifications-section" id="certifications" aria-labelledby="certifications-title">
   <div class="section-heading">
     <p class="eyebrow">03 / Certifications and training</p>
-    <h2 id="certifications-title">Training</h2>
+    <h2 id="certifications-title">Certifications &amp; Training</h2>
   </div>
-  <div class="section-body">
-    <p>I have not added any certifications or separate training entries. If I complete relevant training, I will list the provider, completion date and a verification link where available.</p>
+  <div class="certificate-grid">
+    <article class="certificate-card">
+      <a class="certificate-preview" href="{{ '/assets/certificates/ec-council-ethical-hacking-essentials.jpg' | relative_url }}" target="_blank" rel="noopener" aria-label="View full-size Ethical Hacking Essentials certificate">
+        <img src="{{ '/assets/certificates/ec-council-ethical-hacking-essentials.jpg' | relative_url }}" alt="EC-Council certificate for Ethical Hacking Essentials, dated 8 May 2024" loading="lazy">
+      </a>
+      <div class="certificate-content">
+        <span class="credential-type">Course Completion</span>
+        <h3>Ethical Hacking Essentials (EHE)</h3>
+        <p class="certificate-issuer">EC-Council <span aria-hidden="true">·</span> 8 May 2024</p>
+        <p>Completed foundational training covering ethical hacking concepts and security assessment principles.</p>
+        <a class="certificate-link" href="{{ '/assets/certificates/ec-council-ethical-hacking-essentials.jpg' | relative_url }}" target="_blank" rel="noopener">View Certificate <span aria-hidden="true">↗</span></a>
+      </div>
+    </article>
+    <article class="certificate-card">
+      <a class="certificate-preview" href="{{ '/assets/certificates/google-cybersecurity-certificate.png' | relative_url }}" target="_blank" rel="noopener" aria-label="View full-size Google Cybersecurity Certificate">
+        <img src="{{ '/assets/certificates/google-cybersecurity-certificate.png' | relative_url }}" alt="Google Cybersecurity Certificate issued through Coursera, dated 18 December 2024" loading="lazy">
+      </a>
+      <div class="certificate-content">
+        <span class="credential-type">Professional Certificate</span>
+        <h3>Google Cybersecurity Certificate</h3>
+        <p class="certificate-issuer">Google, through Coursera <span aria-hidden="true">·</span> 18 December 2024</p>
+        <p>Completed the programme covering cybersecurity fundamentals, security operations, risk management and incident response.</p>
+        <a class="certificate-link" href="{{ '/assets/certificates/google-cybersecurity-certificate.png' | relative_url }}" target="_blank" rel="noopener">View Certificate <span aria-hidden="true">↗</span></a>
+      </div>
+    </article>
+    <article class="certificate-card">
+      <a class="certificate-preview" href="{{ '/assets/certificates/malware-analysis-reversing-workshop.jpg' | relative_url }}" target="_blank" rel="noopener" aria-label="View full-size Malware Analysis and Reversing Workshop certificate">
+        <img src="{{ '/assets/certificates/malware-analysis-reversing-workshop.jpg' | relative_url }}" alt="Certificate of participation in the Malware Analysis and Reversing Workshop by 0day Academy, 18 to 26 January 2025" loading="lazy">
+      </a>
+      <div class="certificate-content">
+        <span class="credential-type">Workshop Participation</span>
+        <h3>Malware Analysis &amp; Reversing Workshop</h3>
+        <p class="certificate-issuer">0day Academy <span aria-hidden="true">·</span> 18–26 January 2025</p>
+        <p>Participated in practical training focused on malware analysis and reverse engineering concepts.</p>
+        <a class="certificate-link" href="{{ '/assets/certificates/malware-analysis-reversing-workshop.jpg' | relative_url }}" target="_blank" rel="noopener">View Certificate <span aria-hidden="true">↗</span></a>
+      </div>
+    </article>
+    <article class="certificate-card">
+      <a class="certificate-preview" href="{{ '/assets/certificates/web-application-vulnerabilities-workshop.jpg' | relative_url }}" target="_blank" rel="noopener" aria-label="View full-size Understanding Web Application Vulnerabilities Workshop certificate">
+        <img src="{{ '/assets/certificates/web-application-vulnerabilities-workshop.jpg' | relative_url }}" alt="Certificate of participation in the Understanding Web Application Vulnerabilities Workshop at Asia Pacific University, 26 October 2024" loading="lazy">
+      </a>
+      <div class="certificate-content">
+        <span class="credential-type">Workshop Participation</span>
+        <h3>Understanding Web Application Vulnerabilities Workshop</h3>
+        <p class="certificate-issuer">Forensic &amp; Cybersecurity Research Centre – Student Section, Asia Pacific University <span aria-hidden="true">·</span> 26 October 2024</p>
+        <p>Attended a workshop focused on understanding web application vulnerabilities.</p>
+        <a class="certificate-link" href="{{ '/assets/certificates/web-application-vulnerabilities-workshop.jpg' | relative_url }}" target="_blank" rel="noopener">View Certificate <span aria-hidden="true">↗</span></a>
+      </div>
+    </article>
+    <article class="certificate-card">
+      <a class="certificate-preview" href="{{ '/assets/certificates/cisco-introduction-iot.jpg' | relative_url }}" target="_blank" rel="noopener" aria-label="View full-size Introduction to Internet of Things certificate">
+        <img src="{{ '/assets/certificates/cisco-introduction-iot.jpg' | relative_url }}" alt="Cisco Networking Academy certificate of course completion for Introduction to Internet of Things, dated 22 July 2023" loading="lazy">
+      </a>
+      <div class="certificate-content">
+        <span class="credential-type">Course Completion</span>
+        <h3>Introduction to Internet of Things</h3>
+        <p class="certificate-issuer">Cisco Networking Academy <span aria-hidden="true">·</span> 22 July 2023</p>
+        <p>Completed introductory training covering IoT, digital transformation, connected systems and security considerations.</p>
+        <a class="certificate-link" href="{{ '/assets/certificates/cisco-introduction-iot.jpg' | relative_url }}" target="_blank" rel="noopener">View Certificate <span aria-hidden="true">↗</span></a>
+      </div>
+    </article>
+    <article class="certificate-card">
+      <a class="certificate-preview" href="{{ '/assets/certificates/aws-cloud-practitioner-essentials.jpg' | relative_url }}" target="_blank" rel="noopener" aria-label="View full-size AWS Cloud Practitioner Essentials course completion certificate">
+        <img src="{{ '/assets/certificates/aws-cloud-practitioner-essentials.jpg' | relative_url }}" alt="AWS Training and Certification certificate of completion for AWS Cloud Practitioner Essentials, dated 13 May 2024" loading="lazy">
+      </a>
+      <div class="certificate-content">
+        <span class="credential-type">Course Completion</span>
+        <h3>AWS Cloud Practitioner Essentials</h3>
+        <p class="certificate-issuer">AWS Training and Certification <span aria-hidden="true">·</span> 13 May 2024</p>
+        <p>Completed introductory training on AWS Cloud concepts and services.</p>
+        <a class="certificate-link" href="{{ '/assets/certificates/aws-cloud-practitioner-essentials.jpg' | relative_url }}" target="_blank" rel="noopener">View Certificate <span aria-hidden="true">↗</span></a>
+      </div>
+    </article>
+    <article class="certificate-card">
+      <a class="certificate-preview" href="{{ '/assets/certificates/isc2-cc-training.jpg' | relative_url }}" target="_blank" rel="noopener" aria-label="View full-size ISC2 Certified in Cybersecurity training completion certificate">
+        <img src="{{ '/assets/certificates/isc2-cc-training.jpg' | relative_url }}" alt="BlackBerry Cybersecurity Center of Excellence certificate of completion for training associated with the ISC2 Certified in Cybersecurity programme, dated 30 June 2025" loading="lazy">
+      </a>
+      <div class="certificate-content">
+        <span class="credential-type">Training Completion</span>
+        <h3>ISC2 Certified in Cybersecurity (CC) Training</h3>
+        <p class="certificate-issuer">BlackBerry Cybersecurity Center of Excellence <span aria-hidden="true">·</span> 30 June 2025</p>
+        <p>Completed training covering foundational cybersecurity concepts associated with the ISC2 Certified in Cybersecurity programme. This records training completion, not an ISC2 certification.</p>
+        <a class="certificate-link" href="{{ '/assets/certificates/isc2-cc-training.jpg' | relative_url }}" target="_blank" rel="noopener">View Certificate <span aria-hidden="true">↗</span></a>
+      </div>
+    </article>
+    <article class="certificate-card">
+      <a class="certificate-preview" href="{{ '/assets/certificates/social-engineering-phishing-workshop.jpg' | relative_url }}" target="_blank" rel="noopener" aria-label="View full-size Social Engineering and Phishing Workshop certificate">
+        <img src="{{ '/assets/certificates/social-engineering-phishing-workshop.jpg' | relative_url }}" alt="Certificate of completion for the Social Engineering and Phishing Workshop by 0day Academy, 12 to 13 April 2025" loading="lazy">
+      </a>
+      <div class="certificate-content">
+        <span class="credential-type">Workshop Completion</span>
+        <h3>Social Engineering &amp; Phishing Workshop</h3>
+        <p class="certificate-issuer">0day Academy <span aria-hidden="true">·</span> 12–13 April 2025</p>
+        <p>Completed a workshop focused on social engineering and phishing threats.</p>
+        <a class="certificate-link" href="{{ '/assets/certificates/social-engineering-phishing-workshop.jpg' | relative_url }}" target="_blank" rel="noopener">View Certificate <span aria-hidden="true">↗</span></a>
+      </div>
+    </article>
   </div>
 </section>
 
