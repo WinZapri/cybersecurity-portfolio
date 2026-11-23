@@ -122,6 +122,45 @@ main { overflow: hidden; }
 .roadmap-item--planned .roadmap-marker { border-style: dashed; color: var(--purple); }
 .roadmap-item--future .roadmap-marker { color: var(--muted); border-style: dashed; }
 .roadmap-item--future .roadmap-status { color: var(--muted); }
+.career-section { display: block; }
+.career-section > .section-heading { max-width: 620px; margin-bottom: 1.5rem; }
+.career-dashboard { max-width: 1120px; }
+.career-narrative { margin-bottom: 1.5rem; border: 1px solid var(--line); background: rgba(9, 8, 13, .42); }
+.career-narrative summary { padding: .75rem 1rem; color: var(--purple); font-size: .82rem; cursor: pointer; }
+.career-narrative summary:focus-visible { outline: 2px solid var(--pink); outline-offset: 3px; }
+.career-narrative > div { max-width: 760px; padding: 0 1rem 1rem; color: #d0dadd; }
+.career-narrative > div p:first-child { margin-top: 0; }
+.career-narrative > div p:last-child { margin-bottom: 0; }
+.career-stages { display: grid; grid-template-columns: minmax(0, 1.55fr) 42px minmax(210px, .8fr) 42px minmax(210px, .8fr); align-items: center; gap: .8rem; }
+.career-stage { min-width: 0; }
+.career-stage-label { margin: 0 0 .45rem; color: var(--pink); font-size: .68rem; letter-spacing: .08em; text-transform: uppercase; }
+.career-stage h3 { min-height: 48px; margin: 0 0 .85rem; font-size: 1.02rem; font-weight: 600; line-height: 1.35; }
+.experience-grid { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: .65rem; }
+.experience-card { display: flex; min-height: 142px; flex-direction: column; align-items: flex-start; padding: .85rem; border: 1px solid var(--line); background: var(--navy); color: var(--text); font: inherit; text-align: left; cursor: pointer; transition: border-color .18s ease, transform .18s ease, background .18s ease; }
+.experience-card:hover { border-color: var(--purple); background: #17121d; transform: translateY(-3px); }
+.experience-card:focus-visible { outline: 2px solid var(--pink); outline-offset: 3px; }
+.experience-card-head { display: flex; width: 100%; align-items: flex-start; justify-content: space-between; }
+.career-icon { width: 24px; height: 24px; fill: none; stroke: var(--purple); stroke-width: 1.7; stroke-linecap: round; stroke-linejoin: round; }
+.experience-chevron { width: 16px; height: 16px; fill: none; stroke: var(--muted); stroke-width: 2; transition: transform .18s ease; }
+.experience-card[aria-expanded="true"] .experience-chevron { transform: rotate(180deg); }
+.experience-card > strong { margin: .7rem 0 .45rem; font-size: .86rem; line-height: 1.35; }
+.experience-description { display: block; width: 100%; margin-top: .25rem; padding-top: .65rem; border-top: 1px solid var(--line); color: var(--muted); font-size: .76rem; line-height: 1.55; }
+.experience-description[hidden] { display: none; }
+.experience-card[aria-expanded="true"] { grid-column: span 1; border-color: rgba(183, 160, 255, .72); }
+.career-arrow { display: grid; height: 100%; place-items: center; color: var(--pink); font-size: 1.35rem; }
+.career-arrow span { display: grid; width: 36px; height: 36px; place-items: center; border: 1px solid var(--line); border-radius: 50%; background: var(--navy); }
+.focus-card, .future-card { min-height: 250px; border: 1px solid var(--line); background: var(--navy); }
+.focus-card { position: relative; display: flex; flex-direction: column; align-items: flex-start; padding: 1.15rem; border-color: rgba(240, 138, 196, .72); box-shadow: 0 0 24px rgba(183, 160, 255, .12), 0 0 18px rgba(240, 138, 196, .08); transition: transform .18s ease, box-shadow .18s ease; }
+.focus-card:hover { transform: translateY(-3px); box-shadow: 0 0 28px rgba(183, 160, 255, .18), 0 0 22px rgba(240, 138, 196, .12); }
+.focus-status { margin-bottom: .8rem; padding: .12rem .45rem; border: 1px solid rgba(240, 138, 196, .68); color: var(--pink); font-size: .62rem; letter-spacing: .07em; }
+.focus-icon { width: 42px; height: 42px; margin-bottom: .6rem; fill: none; stroke: var(--pink); stroke-width: 1.5; stroke-linecap: round; stroke-linejoin: round; }
+.focus-card h4, .future-card h4 { margin: 0 0 .6rem; font-size: 1rem; line-height: 1.35; }
+.focus-card p, .future-card p { margin: 0; color: var(--muted); font-size: .82rem; line-height: 1.55; }
+.focus-tags { display: flex; flex-wrap: wrap; gap: .35rem; margin-top: auto; padding-top: .8rem; }
+.focus-tags span { padding: .18rem .45rem; border: 1px solid var(--line); color: var(--purple); font-size: .62rem; }
+.future-card { display: flex; flex-direction: column; align-items: flex-start; padding: 1.15rem; transition: border-color .18s ease, transform .18s ease; }
+.future-card:hover { border-color: var(--purple); transform: translateY(-3px); }
+.future-icon { width: 42px; height: 42px; margin-bottom: .6rem; fill: none; stroke: var(--purple); stroke-width: 1.5; stroke-linecap: round; stroke-linejoin: round; }
 .contact-section { padding: 5rem max(10vw, calc((100vw - 960px) / 2)); border-top: 1px solid var(--line); background: var(--navy-light); }
 .contact-section > p:not(.eyebrow):not(.small-note) { color: var(--muted); }
 .contact-links { display: flex; flex-wrap: wrap; gap: .8rem 1.7rem; margin-top: 1.3rem; }
@@ -145,6 +184,11 @@ main { overflow: hidden; }
   .projects-section .section-intro { margin-top: .8rem; }
   .contact-section { padding: 4rem 7vw; }
   .roadmap-card { padding: .95rem; }
+  .career-stages { grid-template-columns: 1fr; }
+  .career-arrow { height: 36px; transform: rotate(90deg); }
+  .career-stage h3 { min-height: 0; }
+  .experience-grid { grid-template-columns: repeat(3, minmax(0, 1fr)); }
+  .focus-card, .future-card { min-height: 220px; }
   .site-footer { flex-wrap: wrap; padding: 1.2rem 5vw; }
 }
 
@@ -159,12 +203,15 @@ main { overflow: hidden; }
   .roadmap-marker svg { width: 18px; height: 18px; }
   .roadmap-card-head > span { flex-direction: column; align-items: flex-start; }
   .roadmap-card:hover { transform: none; }
+  .experience-grid { grid-template-columns: 1fr; }
+  .experience-card { min-height: 110px; }
+  .career-arrow { height: 32px; }
   .site-footer { align-items: flex-start; flex-direction: column; }
 }
 
 @media (prefers-reduced-motion: reduce) {
   * { scroll-behavior: auto !important; }
-  .certificate-card, .roadmap-card, .roadmap-item { transition: none; }
+  .certificate-card, .roadmap-card, .roadmap-item, .experience-card, .focus-card, .future-card { transition: none; }
   .roadmap-item { opacity: 1; transform: none; }
 }
 
